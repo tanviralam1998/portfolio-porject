@@ -1,0 +1,87 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Montserrat:wght@300&family=Oswald:wght@200;300&display=swap');
+h3{
+    font-family: 'Lacquer', cursive;
+    color: #454444;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.left-content{
+    width: 50%;
+    position: relative;
+    float: left;
+}
+.left-content .carousel-inner img{
+    height: 100vh;
+}
+.header-top{
+    background-color: rgba(0, 0, 0, .5);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+
+}
+
+.menu-icon i{
+    color: #fff;
+    float: right;
+    padding: 44px 10px;
+    font-size: 30px;
+}
+.menu-icon i:hover{
+    cursor: pointer;
+}
+/* navigation */
+.main-menu{
+    position: absolute;
+    top:105px;
+    left: 0;
+    background: rgb(41, 41, 40);
+    z-index: 999;
+    width: 100%;
+    display: none;
+}
+.main-menu ul{
+    padding: 0;
+    list-style-type: none;
+    
+}
+.main-menu ul li{
+    padding: 10px 0;
+} 
+.main-menu ul li a{
+    color: #fff;
+}
+.main-menu ul li a:hover{
+    color: coral;
+}
+/* =============================
+        right-content 
+================================*/
+.right-content{
+    float: right;
+    width: 50%;
+    height: 100vh;
+    overflow: auto;
+    padding: 30px 0;
+}
+.right-content .featured-images img{
+    width: 100%;
+    height: auto;
+}
+/* footer{
+    padding: 20px;
+    text-align: center;
+    color: #000;
+} */
